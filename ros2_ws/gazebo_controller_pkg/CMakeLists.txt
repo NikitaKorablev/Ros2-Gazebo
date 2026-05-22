@@ -13,6 +13,8 @@ find_package(ament_cmake_python REQUIRED)
 install(PROGRAMS
   gazebo_controller_pkg/wall_follower.py
   gazebo_controller_pkg/slam_node.py
+  gazebo_controller_pkg/fuzzy_controller.py
+  gazebo_controller_pkg/path_planner.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
